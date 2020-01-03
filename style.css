@@ -1,0 +1,220 @@
+*{
+box-sizing: border-box;
+
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.navbar ul li
+{
+    display: block;
+    padding: 9px;
+    font-size: 1.1.1em;
+    text-decoration: none;
+}
+
+
+
+.jumbotron {
+position: relative;
+background:url(img/test.jpg) center center;
+color: #ffff;
+width: 100%;
+height: 450px;
+background-size: cover;
+overflow: hidden;
+font-family: 'unset', 'inherit';
+
+}
+
+
+
+.container button #myModal1{
+    height: 100%;
+    align-content: center;
+    }
+    
+    .card{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+    }
+    
+    .social_icon span{
+    font-size: 60px;
+    margin-left: 10px;
+    color: #FFC312;
+    }
+    
+    .social_icon span:hover{
+    color: white;
+    cursor: pointer;
+    }
+    
+    .card-header h3{
+    color: white;
+    }
+    
+    .social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+    }
+    
+    .input-group-prepend span{
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border:0 !important;
+    }
+    
+    input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+    
+    }
+    
+    .remember{
+    color: white;
+    }
+    
+    .remember input
+    {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+    }
+    
+    .login_btn{
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+    }
+    
+    .login_btn:hover{
+    color: black;
+    background-color: white;
+    }
+    
+    .links{
+    color: white;
+    }
+    
+    .links a{
+    margin-left: 4px;
+    }
+
+.concept-section p {
+    padding-top: 30px;
+    font-size: 18pt;
+    color:rgb(96,96,96);
+    }
+    
+    .concept-item {
+        text-align: center;
+        padding-top: 35px;
+    }
+    
+    .concept-item img {
+        border-radius: 40px;
+        margin-bottom: 15px;
+    }
+
+.jumbotron-kelas 
+    {
+        width: 1349px;
+        height:  247px;
+        background-color: #171717;
+    }
+
+    .jumbotron-kelas h1
+    {
+        font-size: 36px;
+        font-family: 'Lato', sans-serif;
+        color: #ffffff;
+        line-height: 1.22;
+        letter-spacing: 3.6px;
+    }
+    .lead-1
+    {
+        position: relative;
+        top: 120px;
+        left: 150px;
+        font-family: 'Lato', sans-serif;  
+        color: #ffffff;
+        font-size: 16px;
+        margin: 0 40px 5px;
+        padding-bottom: 20px;
+        cursor: pointer;
+    }
+    .lead-2
+    {
+        position: relative;
+        top: 70px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;  
+        color: #ffffff;
+        font-size: 16px;
+        margin: 0 40px 5px;
+        padding-bottom: 20px;
+        cursor: pointer;
+    }
+    .lead-3
+    {
+        top: 20px;
+        position: relative;
+        left: 700px;
+        font-family: 'Lato', sans-serif;  
+        color: #ffffff;
+        font-size: 16px;
+        margin: 0 40px 5px;
+        padding-bottom: 20px;
+        cursor: pointer;
+        width: 200px;
+    }
+    .card {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 0px solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+    }
+
+    .lead-1 a{
+        color: white;
+    }
+
+    .lead-2 a{
+        color: white;
+    }
+
+    .lead-3 a{
+        color: white;
+    }
+
+    .lead-1 a:hover{
+        color: grey;
+    }
+
+    .lead-2 a:hover{
+        color: grey;
+    }
+
+    .lead-3 a:hover{
+        color: grey;
+    }
